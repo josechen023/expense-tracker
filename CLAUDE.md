@@ -71,4 +71,4 @@ Two mistakes have each broken production once:
 Hardcoded in `server.js` — update both server and `index.html` dropdowns together if adding new options:
 - **Currencies:** `TWD`, `USD`
 - **Categories:** `Food`, `Transport`, `Shopping`, `Health`, `Entertainment`, `Bills`, `Travel`, `Other`
-- **Methods:** `Cash`, `Credit Card (國泰)`, `EtherFi`
+- **Methods:** `Cash`, `Credit Card (國泰)`, `Credit Card (台新)`, `EtherFi`

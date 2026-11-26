@@ -14,7 +14,7 @@ const DRAFT_SHEET_NAME = "ApplePayDrafts";
 
 const VALID_CURRENCIES = ["TWD", "USD"];
 const VALID_CATEGORIES = ["Food", "Transport", "Shopping", "Health", "Entertainment", "Bills", "Travel", "Other"];
-const VALID_METHODS = ["Cash", "Credit Card (國泰)", "EtherFi"];
+const VALID_METHODS = ["Cash", "Credit Card (國泰)", "Credit Card (台新)", "EtherFi"];
 
 function parseServiceAccountCredentials(rawValue) {
   try {

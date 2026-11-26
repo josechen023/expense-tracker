@@ -32,7 +32,7 @@ JSON fields:
 | `merchant` | Transaction Shortcut Input → Merchant; leave blank if unavailable | `Cafe` |
 | `method` | Fixed to the selected card's tracker method | `Credit Card (國泰)` |
 
-Supported methods are `Cash`, `Credit Card (國泰)`, and `EtherFi`. Start with one TWD card and one real transaction to verify the amount and merchant fields supplied by Wallet. The Shortcut's response should contain `"ok": true` and an `id`; if it fails, the transaction was not queued.
+Supported methods are `Cash`, `Credit Card (國泰)`, `Credit Card (台新)`, and `EtherFi`. Start with one TWD card and one real transaction to verify the amount and merchant fields supplied by Wallet. The Shortcut's response should contain `"ok": true` and an `id`; if it fails, the transaction was not queued.
 
 To set the transaction variables, insert **Shortcut Input** for each field, tap the variable, set **Type** to **Transaction**, then set **Get** to **Amount** or **Merchant**. The shortcut editor's play button does not supply a real Wallet transaction, so verify with a card tap.
 
